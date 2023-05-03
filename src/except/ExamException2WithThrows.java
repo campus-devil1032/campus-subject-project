@@ -15,7 +15,6 @@ public class ExceptionExamWithThrows {
 		}
 
 		// 앞서 catch 구문에서 에러를 처리했으므로 흐름은 다시 이쪽으로 넘어온다.
-
 		try {
 			methodWithNull();
 		} catch (NullPointerException e) {
